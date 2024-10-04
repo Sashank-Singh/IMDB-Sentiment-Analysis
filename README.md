@@ -25,11 +25,15 @@ This project is a sentiment analysis model that classifies movie reviews from th
 - **Python**: Core programming language.
 - **Jupyter Notebook**: For creating and running the notebook for analysis.
 - **Scikit-learn**: For model building and evaluation.
-- **Pandas & NumPy**: For data manipulation.
-- **Matplotlib & Seaborn**: For data visualization.
+- **Pandas**: For data manipulation.
+- **Matplotlib**: For data visualization.
 - **NLTK (Natural Language Toolkit)**: For text preprocessing.
+- **Joblib**: For saving the trained machine learning model.
+- **Wordcloud**: For creating word cloud visualizations.
 - **Git**: Version control for tracking changes.
 - **GitHub**: Repository for storing and sharing the project.
+
+
 
 ## Data
 The dataset used in this project is the **IMDB Dataset of 50K Movie Reviews**, available on [Kaggle](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews).
@@ -42,7 +46,8 @@ The dataset used in this project is the **IMDB Dataset of 50K Movie Reviews**, a
 
 To run this project locally, follow these steps:
 
-## Run this in JupyNoteBook for best visualization.
+
+## Run this in JupyNoteBook for the best visualization.
 
 
 ## Or use 
@@ -51,6 +56,11 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/Sashank-Singh/IMDB-Sentiment-Analysis.git
    cd IMDB-Sentiment-Analysis
+
+To install the required dependencies, you can use the following command:
+```bash
+pip install nltk scikit-learn joblib matplotlib wordcloud pandas
+
 
 ## Usage
 
